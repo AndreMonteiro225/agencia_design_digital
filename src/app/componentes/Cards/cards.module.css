@@ -1,0 +1,48 @@
+.modo_escuro {
+    border: 1px solid #CCCCCC;
+    height: 45vh;
+    width: 20vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.modo_claro {
+    border: 1px solid #747272;
+    height: 45vh;
+    width: 20vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modo_escuro:hover, .modo_claro:hover {
+    background-color: #feb633;
+    color: black !important;
+    transition: all 1s;
+}
+
+.container_card {
+    margin-bottom: 35px;
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .modo_claro, .modo_escuro {
+    width: auto;
+    height: auto;
+    }
+
+}
+
+@media (max-width: 768px){
+    .modo_claro, .modo_escuro {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+}
